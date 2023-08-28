@@ -1,4 +1,3 @@
-// <!-- Author: https://trungquandev.com -->
 function zoomImages(className) {
   $(`.${className}`).unbind("click").on("click", function() {
     $("#div-zoom-area").css("display", "block");
